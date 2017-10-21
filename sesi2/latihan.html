@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!--inisiasi html5-->
+<html>
+<head>
+	<title>Latihan Sesi 2</title>
+	<style type="text/css">
+		h1 {
+			background-color: yellow;
+			color: red;
+			font-family: "Arial", "Calibri", sans-serif;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Latihan Tabel</h1>
+	<h2>latihan css</h2>
+	<h3>latihan latihan</h3>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2">No.</th>
+				<th rowspan="2">Nama</th>
+				<th colspan="2">Tempat, tanggal lahir</th>
+				<th rowspan="2">Alamat Email</th>
+				<th rowspan="2">Username Github</th>
+			</tr>
+			<tr>
+				<th>Tempat</th>
+				<th>Tanggal Lahir</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1.</td>
+				<td>Aulia Fasya Nugroho</td>
+				<td>Bandung</td>
+				<td>1 Januari</td>
+				<td>liuli.fasya@gmail.com</td>
+				<td>fasyauliuli</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Uli</td>
+				<td>Bandung</td>
+				<td>1 Januari</td>
+				<td>fasyauli01@gmail.com</td>
+				<td>fasyauliuli</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>AFN</td>
+				<td>Bandung</td>
+				<td>1 Januari</td>
+				<td>fasyauliuli@hotmail.com</td>
+				<td>fasyauliuli</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<form>
+		<label>Nama
+			<input type="text" name="Nama">
+		</label>
+		<br>
+		<label>Email
+			<input type="email" name="Email">
+		</label>
+	<p>Jenis kelamin
+		<br>
+		<input id="laki2" type="radio" name="gender">
+		<label for="laki2">L</label>
+
+		<input id="perempuan" type="radio" name="gender">
+		<label for="perempuan">P</label>
+	</p>
+		<label>Alamat
+			<textarea name="Alamat"></textarea>
+		</label>
+		<br /> 
+		<input type="submit" name="kirim" value="Kirim">
+		<input type="reset" name="reset">
+	</form>
+</body>
+</html>
