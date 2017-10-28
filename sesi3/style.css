@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    font-family: Roboto, sans serif;
+}
+
+.site-content {
+    width: 1125px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 120px 15px;
+    text-align: center;
+}
+
+.title {
+    font-family: Playfair Display;
+}
+
+.subtitle {
+    font-family: Caveat;
+    font-weight: normal;
+}
+
+.title, .subtitle {
+    display: block;
+}
+
+.hero .title {
+    font-size: 72px;
+}
+
+.hero .subtitle {
+    font-size: 64px;
+}
+
+.hero p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.hero form {
+    max-width: 550px;
+    margin: 70px auto 0;
+    position: relative;
+}
+
+.hero form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 70px 25px 25px;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 0 9px 13px rgba(0,0,0,0.05);
+}
+
+.hero form button{
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    font-size: 36px;
+    color: #e3a6a9;
+    border: none;
+    background: none;
+}
+
+.taman {
+    display: inline-block;
+    margin: 8px;
+}
+
+.taman-detail {
+    text-align: center;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.taman-detail a {
+    color: black;
+    text-decoration: none;
+}
+
+.taman-detail .subtitle {
+    color: #888888;
+}
+
+.taman-detail .title {
+    color: #363636;
+    font-size: 28px;
+}
+
+.taman-detail p {
+    color: #929292;
+    font-size: 14px;
+}
