@@ -58,9 +58,15 @@ body {
     width: 100%;
     font-size: 16px;
     padding: 20px 70px 20px 25px;
-    border-radius: 28px;
-    border: none;
+    border-radius: 30px;
+    border: 2px solid white;
     box-shadow: 0 9px 13px rgba(0,0,0,0.05);
+    outline: none;
+    transition: border-color 300ms ease-in;
+}
+
+.hero form input:focus{
+    border: 2px solid #57adfe;
 }
 
 .hero form button{
@@ -73,20 +79,49 @@ body {
     background: none;
 }
 
+.grid-layout:after { /*clear fix*/
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.grid-item{
+    width: 33.3333%; /*bikin layout grid*/
+    float: left;
+    padding: 0 15px;
+}
+
+.grid-item:nth-child(3n+1){
+    clear: both; /*bikin elemen yang ga sejajar jadi sejajar, dibikin sejajar satu baris*/
+}
+
+.taman figure {
+    margin: 0; /*buat ilangin margin auto dari figure*/
+}
+
+.taman figure img {
+    width: 100%; /*maksa image jadi 100% width nya*/
+}
+
 .taman {
-    display: inline-block;
-    margin: 8px;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.04);
+}
+
+.taman a {
+    color: black;
+    text-decoration: none;
 }
 
 .taman-detail {
+    padding: 10px;
     text-align: center;
-    background-color: white;
-    padding: 5px 0;
 }
 
-.taman-detail a {
-    color: black;
-    text-decoration: none;
+.taman-detail h2 {
+    font-size: 28px;
+    margin: 5px 0 15px;
 }
 
 .taman-detail .subtitle {
@@ -95,10 +130,32 @@ body {
 
 .taman-detail .title {
     color: #363636;
-    font-size: 28px;
 }
 
 .taman-detail p {
     color: #929292;
     font-size: 14px;
+}
+
+.footer {
+    color: #525252;
+    text-align: center;
+    padding: 90px 15px 40px;
+}
+
+.footer a {
+    color: #525252;
+    text-decoration: none;
+}
+
+/*.taman {
+    display: inline-block;
+    margin: 8px;
+}
+
+.taman-detail {
+    text-align: center;
+    background-color: white;
+    padding: 5px 0;
+    box-shadow: 9px 9px 18px rgba(0,0,0,0.02);
 }
