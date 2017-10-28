@@ -148,6 +148,26 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width: 990px){
+    .grid-item {
+        width: 50%;
+    }
+
+    .grid-item:nth-child(3n+1) {
+        clear: none;
+    }
+
+    .grid-item:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .grid-item {
+        width: 100%;
+    }
+}
+
 /*.taman {
     display: inline-block;
     margin: 8px;
