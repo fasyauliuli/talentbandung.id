@@ -7,8 +7,11 @@ body {
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
     font-family: Roboto, sans serif;
+}
+
+.single {
+    background-image: url(images/bg.png);
 }
 
 .site-content {
@@ -79,6 +82,14 @@ body {
     background: none;
 }
 
+.deskripsi p {
+    font-size: 18px;
+    text-align: center;
+    width: 740px;
+    margin: auto;
+    line-height: 36px;
+}
+
 .grid-layout:after { /*clear fix*/
     content: " ";
     clear: both;
@@ -135,6 +146,83 @@ body {
 .taman-detail p {
     color: #929292;
     font-size: 14px;
+}
+
+.slider-image {
+    position: relative;
+}
+
+.slider-image form button {
+    position: absolute;
+    top: 70px;
+    font-size: 72px;
+    background: none;
+    border: none;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0
+}
+
+.grid-carousel {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+}
+
+.image-carousel{
+    width: 934px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.image-carousel figure {
+    margin: 0;
+}
+
+.image-carousel figure img {
+    width: 100%;
+}
+
+.nav {
+    width: 625px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.grid-nav {
+    width: 50%;
+    float: left
+}
+
+.nav form {
+    display: inline-block;
+}
+
+.nav form button {
+    width: 300px;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 28px;
+    background: none;
+    border: none;
+}
+
+.nav form button a {
+    text-decoration: none;
+    color: white
+}
+
+#index {
+    background-color: #22b8cf
+}
+
+#nav-map{
+    background-color: #329af0
 }
 
 .footer {
