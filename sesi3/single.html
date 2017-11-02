@@ -48,24 +48,25 @@
 					<button id="right"><i class="ion-ios-arrow-thin-right"></i></button>
 				</form>
 			</div>
-		
-		<div class="map">
-			<figure>
-				<img src="images/map.jpg" alt="peta-bandung">
-			</figure>
-		</div>
+			<div id="map" style="width:100%;height:500px;"></div>
 			<div class="nav grid-layout">
 				<div class="grid-nav">
 					<form action="">
 						<button id="index">
-							<a href="index.html"><i class="ion-ios-home-outline">Kembali ke Halaman Utama</i></a>
+							<a href="index.html">
+								<i class="ion-ios-home-outline"></i>
+								Kembali ke Halaman Utama
+							</a>
 						</button>
 					</form>
 				</div>
 				<div class="grid-nav">
 					<form action="">
 						<button id="nav-map">
-							<a href="https://goo.gl/maps/nw4N6pkuWoA2"><i class="ion-compass">Dapatkan Petunjuk Arah</i></a>
+							<a href="https://goo.gl/maps/nw4N6pkuWoA2">
+								<i class="ion-compass"></i>
+								Dapatkan Petunjuk Arah
+							</a>
 						</button>
 					</form>
 				</div>
@@ -75,5 +76,22 @@
 			<p>Copyright &copy; 2017 by <a href="http://www.talentbandung.id/">talentbandung.id</a></p>
 		</div>
 	</div>
+
+	<script>
+      function initMap() {
+        var uluru = {lat: -6.912977, lng: 107.609592};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO22Hm1DByHOOI0VxnFLrpReMiE5Tdevs&callback=initMap">
+    </script>
 </body>
 </html>

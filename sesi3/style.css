@@ -12,6 +12,25 @@ body {
 
 .single {
     background-image: url(images/bg.png);
+    position: relative;
+}
+
+#map:before, #map:after {
+    content: " ";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+}
+
+#map::before {
+    top: 0;
+    background-image: linear-gradient(#f8f9fa, rgba(255,255,255,0))
+}
+
+#map::after {
+    bottom: 0;
+    background-image: linear-gradient(rgba(255,255,255,0), #f8f9fa)
 }
 
 .site-content {
@@ -150,6 +169,8 @@ body {
 
 .slider-image {
     position: relative;
+    margin-top: 128px;
+    margin-bottom: 128px;
 }
 
 .slider-image form button {
@@ -206,7 +227,7 @@ body {
 .nav form button {
     width: 300px;
     font-size: 18px;
-    padding: 16px;
+    padding: 11px;
     border-radius: 28px;
     background: none;
     border: none;
@@ -217,8 +238,17 @@ body {
     color: white
 }
 
+.nav form button a i {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
 #index {
     background-color: #22b8cf
+}
+
+.ion-ios-home-outline .ion-compass {
+    font-size: 30px;
 }
 
 #nav-map{
@@ -248,11 +278,65 @@ body {
     .grid-item:nth-child(2n+1) {
         clear: both;
     }
+
+    .deskripsi p {
+        width: 100%;
+    }
+
+    .grid-carousel {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .slider-image form button {
+        top: 185px;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+    .slider-image form button {
+        top: 173px;
+    }
+
+    .nav {
+        margin: auto;
+    }
+    
+    .grid-nav {
+        width: 100%;
+        float: left;
+    }
+
+    .nav form button {
+        margin: 5px;
+    }
 }
 
 @media screen and (max-width: 480px){
     .grid-item {
         width: 100%;
+    }
+    
+    .deskripsi p {
+        width: 100%;
+    }
+
+    .grid-carousel {
+        width: 100%;
+    }
+
+    .slider-image form button {
+        display: none
+    }
+
+    .grid-nav {
+        width: 100%;
+        float: left;
+    }
+
+    .nav form button {
+        margin: 5px;
     }
 }
 
