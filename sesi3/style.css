@@ -15,28 +15,14 @@ body {
     position: relative;
 }
 
-#map:before, #map:after {
-    content: " ";
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    left: 0;
-}
-
-#map::before {
-    top: 0;
-    background-image: linear-gradient(#f8f9fa, rgba(255,255,255,0))
-}
-
-#map::after {
-    bottom: 0;
-    background-image: linear-gradient(rgba(255,255,255,0), #f8f9fa)
-}
-
 .site-content {
     width: 1125px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.content {
+    width: 100%;
 }
 
 .hero {
@@ -168,9 +154,10 @@ body {
 }
 
 .slider-image {
+    width: 1125px;
+    max-width: 100%;
     position: relative;
-    margin-top: 128px;
-    margin-bottom: 128px;
+    margin: 128px auto;
 }
 
 .slider-image form button {
@@ -209,10 +196,38 @@ body {
     width: 100%;
 }
 
+#map:before, #map:after {
+    content: " ";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+}
+
+#map::before {
+    top: 0;
+    background-image: linear-gradient(#f8f9fa, rgba(255,255,255,0))
+}
+
+#map::after {
+    bottom: 0;
+    background-image: linear-gradient(rgba(255,255,255,0), #f8f9fa)
+}
+
 .nav {
     width: 625px;
     max-width: 100%;
     margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white
+}
+
+.nav a span {
+    font-size: 30px;
+    padding-right: 8px;
 }
 
 .grid-nav {
@@ -220,39 +235,38 @@ body {
     float: left
 }
 
-.nav form {
-    display: inline-block;
-}
-
-.nav form button {
+.nav-index, .nav-map {
     width: 300px;
     font-size: 18px;
-    padding: 11px;
+    padding: 10px;
     border-radius: 28px;
-    background: none;
-    border: none;
+    text-align: center
 }
 
-.nav form button a {
-    text-decoration: none;
-    color: white
-}
-
-.nav form button a i {
-    font-size: 30px;
-    padding-right: 5px;
-}
-
-#index {
+.nav-index {
     background-color: #22b8cf
 }
 
-.ion-ios-home-outline .ion-compass {
-    font-size: 30px;
+.nav-index:hover {
+    background-color: #f8f9fa;
+    border: 2px solid #22b8cf;
 }
 
-#nav-map{
+.nav-index a:hover {
+    color: #22b8cf;
+}
+
+.nav-map {
     background-color: #329af0
+}
+
+.nav-map:hover {
+    background-color: #f8f9fa;
+    border: 2px solid #329af0;
+}
+
+.nav-map a:hover {
+    color: #329af0;
 }
 
 .footer {
@@ -288,28 +302,22 @@ body {
         padding: 15px;
     }
 
+    .grid-carousel:nth-child(3n) {
+        display: none;
+    }
+
     .slider-image form button {
-        top: 185px;
+        top: 0;
+        bottom: 0;
     }
 
 }
 
-@media screen and (max-width: 660px){
-    .slider-image form button {
-        top: 173px;
-    }
-
-    .nav {
-        margin: auto;
-    }
-    
+@media screen and (max-width: 660px){ 
     .grid-nav {
         width: 100%;
         float: left;
-    }
-
-    .nav form button {
-        margin: 5px;
+        margin: 8px;
     }
 }
 
@@ -333,6 +341,7 @@ body {
     .grid-nav {
         width: 100%;
         float: left;
+        margin: 8px;
     }
 
     .nav form button {
