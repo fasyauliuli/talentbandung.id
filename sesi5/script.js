@@ -9,9 +9,8 @@ $.get('https://ariona.net/talentbandung/', function(data, status) {
         var tamanItem = '<div class="grid-item"><div class="taman"><figure><a href="single.html"><img src=' + data[i].image.thumbnail + '>' + '</a></figure><div class="taman-detail"><h2><a href = "single.html"><span class ="subtitle">' + pisah + '</span><span class="title">' + gabung + '</a></h2><p>' + data[i].alamat + '</p></div></div></div>';
         listTaman.append(tamanItem);
     }
-});
 
-/*    var search = $('#filter');
+    var search = $('#filter');
     search.keyup(filterTaman);
 
     function filterTaman() {
@@ -26,6 +25,4 @@ $.get('https://ariona.net/talentbandung/', function(data, status) {
             }
         }
     }
-} );*/
-
-//data.nama, data.alamat, data.image.thumbnail
+} );
