@@ -4,76 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>My Package - Ebandy</title>
 </head>
 <body>
     <header>
-        <div class="hero">
-            <p>Ebandy</p>
-            <figure>
-                <a href="profile.html">
-                    <img src="" alt="">
-                </a>
-            </figure>
-            <a href="index.html">Logout</a>
-        </div>
+        <p><a href="index.html">Ebandy</a></p>
+        <p class="greet">Hello, Amir</p>
+        <figure>
+            <a href="profile.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
+        </figure>
+        <a href="index.html" class="button login">LOG OUT</a>
     </header>
     <main>
-        <div class="container">
-            <h1>Dina's Travel Diary</h1>
-            <div class="travel-list">
-                <div class="travel">
-                    <figure>
-                        <a href="family.html">
-                            <img src="assets/images/family.png" alt="icon-keluarga">
-                        </a>
-                    </figure>
-                    <div class="travel-detail">
-                        <h2><a href="">Family and Kids</a></h2>
-                        <p></p>
+        <div class="my-package">
+            <h1>Amir's Travel Diary</h1>
+            <div class="travel-list row">
+                <div class="col-md-6">
+                    <div class="travel">
+                        <figure>
+                            <a href=""><img src="assets/images/museum.png" alt="museum"></a>
+                        </figure>
+                        <div class="travel-detail">
+                            <h3><a href="museum.html">Museum Tours</a></h3>
+                            <p>Get to know Bandung’s History by visiting Museums.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="travel">
+                        <figure>
+                            <a href="food.html"><img src="assets/images/makan.png" alt="food"></a>
+                        </figure>
+                        <div class="travel-detail">
+                            <h3><a href="food.html">Culinary Tours</a></h3>
+                            <p>Enjoy Bandung’s Mouth-Watering Restaurants and Cafe.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="travel-list">
-                <div class="travel">
-                    <figure>
-                        <a href="food.html">
-                            <img src="assets/images/makan.png" alt="icon-kuliner">
-                        </a>
-                    </figure>
-                    <div class="travel-detail">
-                        <h2><a href="">Food</a></h2>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <a href="travel-list.html"><i class="ion-plus-round"></i> Explore new place!</a>
+            <a href="travel-list.html" class="button add"><i class="ion-plus-round"></i> Explore new place!</a>
         </div>
     </main>
     <footer>
-        <figure class="text-logo">
-            <img src="assets/images/ebandy-text.png" alt="ebandy-text">
-        </figure>
-        <div class="menu">
-            <h4>More</h4>
-            <ul>
-                <li>How To</li>
-                <li>Travel Packages</li>
-                <li>Team</li>
-            </ul>
-        </div>
-        <div class="menu">
-            <h4>Social</h4>
-            <ul>
-                <li><a href="https://facebook.com/">Facebook</a></li>
-                <li><a href="https://twitter.com/">Twitter</a></li>
-                <li><a href="https://instagram.com/">Instagram</a></li>
-            </ul>
+        <div class="row footer">
+            <div class="col-md-4">
+                <figure>
+                    <a href="index.html"><img src="assets/images/text.png" alt="ebandy-text"></a>
+                </figure>
+            </div>
+            <div class="menu col-md-4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="#">How To</a></li>
+                    <li><a href="package.html">Travel Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="menu col-md-4">
+                <h4>SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
         </div>
         <figure>
-            <img src="assets/images/kota.png" alt="kota">
+            <img src="assets/images/kota.png" alt="kota" class="kota">
         </figure>
-        <p>&copy; 2017. Talent Bandung</p>
+        <p>&copy; 2017. Developed By <span class="nama"><a href="https://linkedin.com/in/fasyauliuli">AFN</a></span> | <span class="nama">Talent Bandung</span> Pengembangan Web Batch 2</p>
     </footer>
 </body>
 </html>
