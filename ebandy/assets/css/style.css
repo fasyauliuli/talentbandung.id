@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Source Sans Pro, sans serif;
+}
+
+header {
+    background-color: #6eabd8;
+    width: 100%;
+    position: relative;
+}
+
+header p {
+    font-family: Befolk;
+    margin: 0;
+    font-size: 38.14px;
+    padding: 25px 75px
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+}
+
+header p a:hover {
+    text-decoration: none;
+    color: white
+}
+
+.button.login {
+    text-decoration: none;
+    background-color: white;
+    color: #6eabd8;
+    padding: 3px 15px;
+    position: absolute;
+    right: 65px;
+    top: 30px;
+    font-size: 23.42px;
+    border-radius: 20px
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-6 {
+    text-align: center
+}
+
+h1 {
+    font-weight: 400;
+}
+
+header h1 {
+    color: white;
+    font-size: 46.39px;
+}
+
+.col-md-6 p {
+    color: white;
+    font-size: 27.83px;
+    margin-bottom: 72px;
+    font-family: Source Sans Pro, sans serif;
+}
+
+.button.get-start {
+    text-decoration: none;
+    background-color: white;
+    color: #6eabd8;
+    font-size: 34.02px;
+    padding: 12px 55px;
+    border-radius: 40px;
+    border: 3px solid white;
+}
+
+.button.get-start:hover {
+    background-color: #6eabd8;
+    color: white;
+    border: 3px solid white;
+}
+
+.intro {
+    margin-top: 53px;
+    width: 1236px;
+    margin: 53px auto;
+}
+
+.col-md-4 figure {
+    text-align: center
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h2 .judul {
+    font-weight: 600;
+    padding: 0;
+}
+
+h2 .explore {
+    font-weight: 400;
+}
+
+.col-md-8 p {
+    font-size: 22.35px;
+    font-weight: 300;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    margin: 28px 0;
+}
+
+.langkah-list {
+    width: 1266px;
+    margin: auto;
+}
+
+.content h2 {
+    font-weight: 400;
+}
+
+h2 .how-to {
+    font-weight: 600;
+}
+
+h2 .ebandy {
+    font-family: Befolk;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.langkah-detail p {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 43px 0;
+}
+
+p .detail {
+    font-weight: 400;
+}
+
+.travel-package {
+    background-color: #f1f1f1;
+    padding-bottom: 55px;
+}
+
+.travel-package h2 {
+    padding: 60px
+}
+
+h2 .title {
+    font-weight: 600;
+}
+
+.travel-list {
+    width: 1114px;
+    margin: auto;
+    text-align: center;
+}
+
+.travel {
+    background-color: white;
+    padding: 16px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.travel img {
+    margin: 15px 0;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black
+}
+
+.travel-detail p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.button.take {
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #6eabd8;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.more {
+    background-color: #6eabd8;
+    padding: 70px 0;
+    margin: 0;
+}
+
+.more h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.button.start {
+    text-decoration: none;
+    color: #6eabd8;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 34px;
+    border-radius: 35px;
+    border: 3px solid white
+}
+
+.button.start:hover {
+    background-color: #6eabd8;
+    color: white;
+    border: 3px solid white;
+}
+
+footer {
+    background-color: #fcfcfc;
+}
+
+.footer {
+    padding: 50px 0;
+}
+
+h4 {
+    font-size: 22px;
+    color: #515851;
+}
+
+.menu ul {
+    font-size: 18px;
+    color: #515851;
+    padding: 0;
+    font-weight: 300;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #515851;
+}
+
+footer .kota {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    background-color: #273845;
+    margin: 0;
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 300;
+}
+
+p .nama {
+    margin: 0;
+    font-weight: 400;
+}
+
+p .nama a {
+    text-decoration: none;
+    color: white
+}
+
+.row.login {
+    margin: 60px 0;
+}
+
+.form h1 {
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+input {
+    width: 476.44px;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px
+}
+
+.form a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #6eabd8;
+    padding: 10px 120px;
+}
+
+.form p {
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+
+.form p a {
+    color: black;
+    padding: 0;
+    background-color: white;
+    font-size: 16px;
+}
+
+.form p a:hover {
+    color: orangered;
+}
+
+hr {
+    width: 476px;
+}
+
+.container {
+    padding: 25px 0;
+}
+
+.container h1 {
+    text-align: center;
+}
