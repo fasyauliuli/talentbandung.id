@@ -58,10 +58,10 @@ header h1 {
     font-size: 46.39px;
 }
 
-.col-md-6 p {
+.head p {
     color: white;
     font-size: 27.83px;
-    margin-bottom: 72px;
+    margin-bottom: 60px;
     font-family: Source Sans Pro, sans serif;
 }
 
@@ -151,7 +151,7 @@ p .detail {
 
 .travel-package {
     background-color: #f1f1f1;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
 }
 
 .travel-package h2 {
@@ -170,9 +170,11 @@ h2 .title {
 
 .travel {
     background-color: white;
-    padding: 16px;
+    padding: 15px 12px;
     padding-bottom: 30px;
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .travel img {
@@ -198,6 +200,22 @@ h3 a {
     padding: 8px 15px;
     border-radius: 20px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.button.take:hover {
+    background-color: #5d94b9
+}
+
+.button.all {
+    text-decoration: none;
+    color: #6eabd8;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.button.all:hover {
+    text-decoration: underline;
+    color: #5d94b9
 }
 
 .more {
@@ -333,4 +351,24 @@ hr {
 
 .container h1 {
     text-align: center;
+}
+
+.travel-pack .travel-list {
+    margin: 60px auto;
+}
+
+.travel-list-2 {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.travel-pack h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.cart {
+    height: 128px;
 }
