@@ -422,15 +422,15 @@ hr {
 .user {
     position: absolute;
     width: 55px;
-    top: 20px;
-    right: 200px;
+    top: 18px;
+    right: 210px;
 }
 
 header .greet {
     font-size: 24px;
     position: absolute;
-    top: 8px;
-    right: 195px;
+    top: 12px;
+    right: 201px;
     color: white
 }
 
@@ -489,4 +489,74 @@ header .greet {
 
 .museum-detail {
     padding: 10px;
+}
+
+.diary {
+    margin: 65px auto;
+    width: 1172px;
+}
+
+.user-info {
+    text-align: center
+}
+
+.user-info figure img {
+    width: 123px;
+}
+
+.user-info p {
+    font-size: 20.83px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.user-info .username {
+    font-weight: 400;
+    margin-top: 19px
+}
+
+.travel-diary {
+    font-weight: 300;
+}
+
+.travel-diary h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.travel-diary h1 .title {
+    font-weight: 400;
+}
+
+.travel-diary h2 {
+    font-size: 30.44px;
+    font-weight: 300
+}
+
+.travel-diary h3 {
+    font-size: 26.02px;
+    font-weight: 300
+}
+
+.travel-diary h3 .date {
+    font-weight: 400
+}
+
+.travel-diary .row {
+    padding: 40px;
+}
+
+.travel-diary p {
+    font-size: 25px;
+    margin-bottom: 25px
+}
+
+.travel-diary ol {
+    font-size: 25px;
+    padding-left: 25px
+}
+
+.travel-diary ol li {
+    padding: 10px 0;
 }
