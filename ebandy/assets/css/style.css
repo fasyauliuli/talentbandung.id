@@ -560,3 +560,218 @@ header .greet {
 .travel-diary ol li {
     padding: 10px 0;
 }
+
+.wrap {
+    height: 61px;
+}
+
+.basic-info {
+    background-color: white;
+    padding: 87px 0;
+}
+
+.basic-info h1 {
+    color: black;
+    font-size: 38.04px;
+}
+
+.basic-info .caption {
+    font-size: 30.04px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.button.follow {
+    font-size: 22.08px;
+    color: white;
+    text-decoration: none;
+    background-color: #6eabd8;
+    display: inline-block;
+    width: 175px;
+    padding: 6px;
+}
+
+.basic-info {
+    width: 1232.31px;
+    margin: auto
+}
+
+.basic-info p {
+    font-family: Source Sans Pro, sans serif;
+    color: black
+}
+
+.basic-info p a {
+    color: black;
+}
+
+.point {
+    text-align: left
+}
+
+.point h2 {
+    font-size: 29.17px;
+    font-weight: 300;
+    background-color: #6eabd8;
+    color: white;
+    margin: 0;
+    padding: 10px 22px;
+}
+
+.point .medali {
+    padding: 25px
+}
+
+.point figure img {
+    height: 61px;
+}
+
+.achievement .row {
+    border: 2px solid #6eabd8
+}
+
+.travel-info .row {
+    border: 2px solid #6eabd8
+}
+
+.travel-info {
+    position: relative;
+}
+
+.travel-info button {
+    font-size: 29.17px;
+    color: white;
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    border: none;
+    background-color: #6eabd8
+}
+
+.timeline-list h1 {
+    font-size: 41px;
+    color: #6eabd8;
+    font-weight: 300;
+    text-align: center
+}
+
+.timeline {
+    padding: 50px 0
+}
+
+.timeline h2 {
+    font-size: 27.75px;
+    background: #6eabd8;
+    color: white;
+    max-width: 6em;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    clear: both;
+    font-weight: 300;
+}
+
+.timeline ul {
+    padding: 0 50px;
+    margin: 0
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 4px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #6eabd8
+}
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 343px;
+    padding: 15px;
+    background: #F45B69;
+  }
+
+  .timeline ul li div::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+  }
+  
+  .timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+  
+  .timeline ul li:nth-child(even) div {
+    left: -383px;
+  }
+  
+  .timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
+  }
+
+  #editor {
+      height: 380px
+  }
+
+  .post-title {
+      text-align: center;
+      margin: 40px 0;
+      color: #6eabd8;
+  }
+
+  .ql-toolbar.ql-snow {
+      text-align: center
+  }
+
+  .ql-editor {
+      font-size: 18px;
+  }
+
+  .button.save {
+      text-align: center
+  }
+
+  .publish {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 22px;
+      color: white;
+      background-color: #6eabd8;
+      padding: 8px;
+      width: 125px;
+      border-radius: 15px;
+      text-align: center;
+      margin: 25px 0;
+  }
+
+  .publish:hover {
+      text-decoration: none;
+      color: white;
+      background-color: #5d94b9
+  }

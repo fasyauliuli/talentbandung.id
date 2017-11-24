@@ -4,141 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="hero">
-            <p>Ebandy</p>
+            <p><a href="index.html">Ebandy</a></p>
+            <p class="greet">Hello, Amir</p>
             <figure>
-                <img src="" alt="user">
+                <a href="profile.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
             </figure>
-            <button>Logout</button>
-            <figure>
-                <img src="" alt="">
-            </figure>
-        </div>
-        <div class="user">
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <h1>Dina Anindita</h1>
-            <a href="#">Follow</a>
-        </div>
-        <div class="achievment">
-            <h2>Achievment</h2>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <p>23 Points | 3 <a href="achievment.html">Badges</a></p>
-        </div>
-        <div class="travel-info">
-            <h2>Your Package</h2>
-            <button><i class="ion-plus-round"></i></button>
-            <figure>
-                <a href="family.html">
-                    <img src="assets/images/family.png" alt="family-icon">
-                </a>
-            </figure>
-            <p>Family and Kids Tour</p>
+            <a href="index.html" class="button login">LOG OUT</a>
         </div>
     </header>
     <main>
-        <div class="container">
-            <h1>
-                Dina's Travel Timeline
-            </h1>
+        <div class="row basic-info">
+            <div class="user-profile col-md-6">
+                <figure>
+                    <img src="assets/images/user.png" alt="user">
+                </figure>
+                <h1>M. F. Amir</h1>
+                <p class="caption">People don’t take trips, Trips take people</p>
+                <a href="#" class="button follow">FOLLOW</a>
+            </div>
+            <div class="point col-md-6">
+                <div class="achievement">
+                    <h2>Achievement</h2>
+                    <div class="row medali">
+                        <div class="col-md-4">
+                            <figure>
+                                <img src="assets/images/medali.png" alt="medali">
+                            </figure>
+                        </div>
+                        <div class="col-md-8">
+                            <p>23 Points | 3 <a href="achievement.html">Badges</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-info">
+                    <h2>Your Package</h2>
+                    <button><i class="ion-plus-round"></i></button>
+                    <div class="row">
+                        <div class="wrap">
+                            <div class="col-md-4">
+                                <figure>
+                                    <a href="museum.html">
+                                        <img src="assets/images/museum.png" alt="museum">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Museum Tours</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="col-md-4">
+                                <figure>
+                                    <a href="museum.html">
+                                        <img src="assets/images/museum.png" alt="museum">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Museum Tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-list">
+            <h1>Amir's Travel Timeline</h1>
             <div class="timeline">
                 <h2>TODAY</h2>
                 <ul>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="assets/images/resize/sri baduga-1.jpg" alt="museum sri baduga">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                 </ul>
                 <h2>2 DAYS AGO</h2>
                 <ul>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="" alt="">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="" alt="">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="" alt="">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                 </ul>
                 <h2>5 DAYS AGO</h2>
                 <ul>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="" alt="">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                     <li>
-                        <figure>
-                            <a href="diary.html">
-                                <img src="" alt="">
-                            </a>
-                        </figure>
-                        <h3>Museum Sri Baduga</h3>
-                        <p>Read More...</p>
+                        <div class="timeline">
+                            <figure>
+                                <a href="diary.html">
+                                    <img src="" alt="">
+                                </a>
+                            </figure>
+                            <h3>Museum Sri Baduga</h3>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </main>
     <footer>
-        <figure class="text-logo">
-            <img src="assets/images/ebandy-text.png" alt="ebandy-text">
-        </figure>
-        <div class="menu">
-            <h4>More</h4>
-            <ul>
-                <li>How To</li>
-                <li>Travel Packages</li>
-                <li>Team</li>
-            </ul>
-        </div>
-        <div class="menu">
-            <h4>Social</h4>
-            <ul>
-                <li><a href="https://facebook.com/">Facebook</a></li>
-                <li><a href="https://twitter.com/">Twitter</a></li>
-                <li><a href="https://instagram.com/">Instagram</a></li>
-            </ul>
+        <div class="row footer">
+            <div class="col-md-4">
+                <figure>
+                    <a href="index.html"><img src="assets/images/text.png" alt="ebandy-text"></a>
+                </figure>
+            </div>
+            <div class="menu col-md-4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="#">How To</a></li>
+                    <li><a href="package.html">Travel Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="menu col-md-4">
+                <h4>SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
         </div>
         <figure>
-            <img src="assets/images/kota.png" alt="kota">
+            <img src="assets/images/kota.png" alt="kota" class="kota">
         </figure>
-        <p>&copy; 2017. Talent Bandung</p>
+        <p>&copy; 2017. Developed By <span class="nama"><a href="https://linkedin.com/in/fasyauliuli">AFN</a></span> | <span class="nama">Talent Bandung</span> Pengembangan Web Batch 2</p>
     </footer>
 </body>
 </html>
