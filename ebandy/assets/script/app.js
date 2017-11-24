@@ -16,6 +16,6 @@
 //     theme: 'snow'
 //   });
 
-$.get('assets/script/tempat.json', function(data, status) {
+$.get('https://fasyauliuli.github.io/talentbandung.id/ebandy/assets/script/tempat.json', function(data, status) {
     console.log(data);
 } );

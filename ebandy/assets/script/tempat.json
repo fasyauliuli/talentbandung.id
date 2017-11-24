@@ -1,302 +1,292 @@
 [
-    { 
-        "museum": [{
-            "id" : 1,
-            "nama" : "Museum Asia Afrika",
-            "alamat" : "Jl. Asia Afrika No.65, Braga",
-            "koordinat" : {
-                "latitude" : "-6.921160",
-                "longitude" : "107.609515"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kaa-4.jpg"
+    {
+        "id" : 1,
+        "nama" : "Museum Asia Afrika",
+        "alamat" : "Jl. Asia Afrika No.65, Braga",
+        "koordinat" : {
+            "latitude" : "-6.921160",
+            "longitude" : "107.609515"
         },
-        {
-            "id" : 2,
-            "nama" : "Museum Geologi",
-            "alamat" : "Jl. Diponegoro No.57, Cihaur Geulis",
-            "koordinat" : {
-                "latitude" : "-6.900649",
-                "longitude" : "107.621468"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/geologi-2.jpg"
-        },
-        {
-            "id" : 3,
-            "nama" : "Museum Pos Indonesia",
-            "alamat" : "Jl. Cilaki No.73, Citarum",
-            "koordinat" : {
-                "latitude" : "-6.902279",
-                "longitude" : "107.619957"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/pos-2.jpg"
-        },
-        {
-            "id" : 4,
-            "nama" : "Museum Sri Baduga",
-            "alamat" : "Jl. BKR No.185, Pelindung Hewan",
-            "koordinat" : {
-                "latitude" : "-6.937658",
-                "longitude" : "107.603472"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/sri baduga-1.jpg"
-        },
-        {
-            "id" : 5,
-            "nama" : "Museum Barli",
-            "alamat" : "Jl. Prof. Ir. Sutami No. 91, Sukasari",
-            "koordinat" : {
-                "latitude" : "-6.878191",
-                "longitude" : "107.587532"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/barli-5.jpg"
-        }]
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kaa-4.jpg"
     },
-    { 
-        "keluarga": [{
-            "id" : 1,
-            "nama" : "Saung Angklung Udjo",
-            "alamat" : "Jl Padasuka No.118, Pasirlayung",
-            "koordinat" : {
-                "latitude" : "-6.897947",
-                "longitude" : "107.654965"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/udjo-5.jpg"
+    {
+        "id" : 2,
+        "nama" : "Museum Geologi",
+        "alamat" : "Jl. Diponegoro No.57, Cihaur Geulis",
+        "koordinat" : {
+            "latitude" : "-6.900649",
+            "longitude" : "107.621468"
         },
-        {
-            "id" : 2,
-            "nama" : "Upside Down World",
-            "alamat" : "Jl. H. Wasid No.31, Coblong",
-            "koordinat" : {
-                "latitude" : "-6.896439",
-                "longitude" : "107.617129"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/upside-3.jpg"
-        },
-        {
-            "id" : 3,
-            "nama" : "Amazing Art World",
-            "alamat" : "Jl. Setiabudhi No. 293, Isola",
-            "koordinat" : {
-                "latitude" : "-6.851779",
-                "longitude" : "107.595607"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/amazing-5.jpg"
-        },
-        {
-            "id" : 4,
-            "nama" : "Trans Studio Bandung",
-            "alamat" : "Jl. Jendral Gatot Subroto No.289, Cibangkong",
-            "koordinat" : {
-                "latitude" : "-6.925041",
-                "longitude" : "107.636490"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/trans-2.jpg"
-        },
-        {
-            "id" : 5,
-            "nama" : "Kebun Binatang Bandung",
-            "alamat" : "Jl. Kebun Binatang No.6, Lebak Siliwangi,",
-            "koordinat" : {
-                "latitude" : "-6.890131",
-                "longitude" : "107.606956"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kebun-3.jpg"
-        }]
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/geologi-2.jpg"
     },
-    { 
-        "shopping": [{
-            "id" : 1,
-            "nama" : "Kampung Boneka Sukamulya",
-            "alamat" : "Jl. Sukamulya Indah No.18, Sukagalih",
-            "koordinat" : {
-                "latitude" : "-6.886567",
-                "longitude" : "107.586064"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/boneka-1.jpg"
+    {
+        "id" : 3,
+        "nama" : "Museum Pos Indonesia",
+        "alamat" : "Jl. Cilaki No.73, Citarum",
+        "koordinat" : {
+            "latitude" : "-6.902279",
+            "longitude" : "107.619957"
         },
-        {
-            "id" : 2,
-            "nama" : "Pasar Baru Trade Center",
-            "alamat" : "Jl. Otto Iskandar Dinata No.70, Karanganyar",
-            "koordinat" : {
-                "latitude" : "-6.917526",
-                "longitude" : "107.604104"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/pasar-4.jpg"
-        },
-        {
-            "id" : 3,
-            "nama" : "Rumah Mode Factory Outlet",
-            "alamat" : "Jl. Doktor Setiabudi No.41, Pasteur",
-            "koordinat" : {
-                "latitude" : "-6.882917",
-                "longitude" : "107.599650"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/mode-1.jpg"
-        },
-        {
-            "id" : 4,
-            "nama" : "Jalan Riau",
-            "alamat" : "Jl. Riau, Citarum",
-            "koordinat" : {
-                "latitude" : "-6.906313",
-                "longitude" : "107.615718"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/riau-1.jpg"
-        },
-        {
-            "id" : 5,
-            "nama" : "Jalan Cihampelas",
-            "alamat" : "Jl. Cimapelas, Pasir Kaliki",
-            "koordinat" : {
-                "latitude" : "-6.905640",
-                "longitude" : "107.604394"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/cihampelas-3.jpg"
-        }]
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/pos-2.jpg"
     },
-    { 
-        "heritage": [{
-            "id" : 1,
-            "nama" : "Gedung Sate",
-            "alamat" : "Jl. Diponegoro No.22, Citarum",
-            "koordinat" : {
-                "latitude" : "-6.902508",
-                "longitude" : "107.618781"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/sate-3.jpg"
+    {
+        "id" : 4,
+        "nama" : "Museum Sri Baduga",
+        "alamat" : "Jl. BKR No.185, Pelindung Hewan",
+        "koordinat" : {
+            "latitude" : "-6.937658",
+            "longitude" : "107.603472"
         },
-        {
-            "id" : 2,
-            "nama" : "Masjid Raya Bandung",
-            "alamat" : "Jl. Asia Afrika, Balonggede, Regol",
-            "koordinat" : {
-                "latitude" : "-6.921752",
-                "longitude" : "107.606502"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/masjid-2.jpg"
-        },
-        {
-            "id" : 3,
-            "nama" : "Stasiun Bandung",
-            "alamat" : "Jl. Stasiun Barat, Kb. Jeruk",
-            "koordinat" : {
-                "latitude" : "-6.912598",
-                "longitude" : "107.602401"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/stasiun-2.jpg"
-        },
-        {
-            "id" : 4,
-            "nama" : "Jalan Asia Afrika",
-            "alamat" : "Jl. Asia Afrika, Braga",
-            "koordinat" : {
-                "latitude" : "-6.921236",
-                "longitude" : "107.608049"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/asia-3.jpg"
-        },
-        {
-            "id" : 5,
-            "nama" : "Jalan Braga",
-            "alamat" : "Jl. Braga, Sumur Bandung",
-            "koordinat" : {
-                "latitude" : "-6.917451",
-                "longitude" : "107.609334"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/braga-2.jpg"
-        }]
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/sri baduga-1.jpg"
     },
-    { 
-        "kuliner": [{
-            "id" : 1,
-            "nama" : "Kartika Sari",
-            "alamat" : "Jl. Haji Akbar No.4, Pasir Kaliki",
-            "koordinat" : {
-                "latitude" : "-6.911932",
-                "longitude" : "107.599857"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kartika-5.jpg"
+    {
+        "id" : 5,
+        "nama" : "Museum Barli",
+        "alamat" : "Jl. Prof. Ir. Sutami No. 91, Sukasari",
+        "koordinat" : {
+            "latitude" : "-6.878191",
+            "longitude" : "107.587532"
         },
-        {
-            "id" : 2,
-            "nama" : "Batagor Kingsley",
-            "alamat" : "Jl. Veteran No.25, Kebon Pisang",
-            "koordinat" : {
-                "latitude" : "-6.919113",
-                "longitude" : "107.615354"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/batagor-1.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/barli-5.jpg"
+    },
+    {
+        "id" : 6,
+        "nama" : "Saung Angklung Udjo",
+        "alamat" : "Jl Padasuka No.118, Pasirlayung",
+        "koordinat" : {
+            "latitude" : "-6.897947",
+            "longitude" : "107.654965"
         },
-        {
-            "id" : 3,
-            "nama" : "Let's Go Gelato",
-            "alamat" : "Jl. Bengawan No.29, Cihapit",
-            "koordinat" : {
-                "latitude" : "-6.911449",
-                "longitude" : "107.631220"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/gelato-4.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/udjo-5.jpg"
+    },
+    {
+        "id" : 7,
+        "nama" : "Upside Down World",
+        "alamat" : "Jl. H. Wasid No.31, Coblong",
+        "koordinat" : {
+            "latitude" : "-6.896439",
+            "longitude" : "107.617129"
         },
-        {
-            "id" : 4,
-            "nama" : "Mom's Bakery",
-            "alamat" : "Jl. Progo No.18, Citarum",
-            "koordinat" : {
-                "latitude" : "-6.904710",
-                "longitude" : "107.618598"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/mom-2.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/upside-3.jpg"
+    },
+    {
+        "id" : 8,
+        "nama" : "Amazing Art World",
+        "alamat" : "Jl. Setiabudhi No. 293, Isola",
+        "koordinat" : {
+            "latitude" : "-6.851779",
+            "longitude" : "107.595607"
         },
-        {
-            "id" : 5,
-            "nama" : "Blue Doors",
-            "alamat" : "Jl. Gandapura No.61, Merdeka",
-            "koordinat" : {
-                "latitude" : "-6.912575",
-                "longitude" : "107.626428"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/blue-2.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/amazing-5.jpg"
+    },
+    {
+        "id" : 9,
+        "nama" : "Trans Studio Bandung",
+        "alamat" : "Jl. Jendral Gatot Subroto No.289, Cibangkong",
+        "koordinat" : {
+            "latitude" : "-6.925041",
+            "longitude" : "107.636490"
         },
-        {
-            "id" : 6,
-            "nama" : "Martabak Andir",
-            "alamat" : "Jl. Jend. Sudirman No.413, Jamika",
-            "koordinat" : {
-                "latitude" : "-6.919169",
-                "longitude" : "107.590226"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/andir-2.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/trans-2.jpg"
+    },
+    {
+        "id" : 10,
+        "nama" : "Kebun Binatang Bandung",
+        "alamat" : "Jl. Kebun Binatang No.6, Lebak Siliwangi,",
+        "koordinat" : {
+            "latitude" : "-6.890131",
+            "longitude" : "107.606956"
         },
-        {
-            "id" : 7,
-            "nama" : "Yoghurt Cisangkuy",
-            "alamat" : "Jl. Cisangkuy No.66, Citarum",
-            "koordinat" : {
-                "latitude" : "-6.901789",
-                "longitude" : "107.621436"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/yoghurt-3.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kebun-3.jpg"
+    },
+    {
+        "id" : 11,
+        "nama" : "Kampung Boneka Sukamulya",
+        "alamat" : "Jl. Sukamulya Indah No.18, Sukagalih",
+        "koordinat" : {
+            "latitude" : "-6.886567",
+            "longitude" : "107.586064"
         },
-        {
-            "id" : 8,
-            "nama" : "Atmosphere Resort Cafe",
-            "alamat" : "Jl. Lengkong Besar No.97, Paledang",
-            "koordinat" : {
-                "latitude" : "-6.926671",
-                "longitude" : "107.613393"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/atmosfer-1.jpg"
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/boneka-1.jpg"
+    },
+    {
+        "id" : 12,
+        "nama" : "Pasar Baru Trade Center",
+        "alamat" : "Jl. Otto Iskandar Dinata No.70, Karanganyar",
+        "koordinat" : {
+            "latitude" : "-6.917526",
+            "longitude" : "107.604104"
         },
-        {
-            "id" : 9,
-            "nama" : "Paskal Food Market",
-            "alamat" : "Paskal Hyper Square, Jl. Pasirkaliki No.25-27, Kb. Jeruk",
-            "koordinat" : {
-                "latitude" : "-6.914426",
-                "longitude" : "107.592721"
-            },
-            "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/paskal-5.jpg"
-        }]
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/pasar-4.jpg"
+    },
+    {
+        "id" : 13,
+        "nama" : "Rumah Mode Factory Outlet",
+        "alamat" : "Jl. Doktor Setiabudi No.41, Pasteur",
+        "koordinat" : {
+            "latitude" : "-6.882917",
+            "longitude" : "107.599650"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/mode-1.jpg"
+    },
+    {
+        "id" : 14,
+        "nama" : "Jalan Riau",
+        "alamat" : "Jl. Riau, Citarum",
+        "koordinat" : {
+            "latitude" : "-6.906313",
+            "longitude" : "107.615718"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/riau-1.jpg"
+    },
+    {
+        "id" : 15,
+        "nama" : "Jalan Cihampelas",
+        "alamat" : "Jl. Cimapelas, Pasir Kaliki",
+        "koordinat" : {
+            "latitude" : "-6.905640",
+            "longitude" : "107.604394"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/cihampelas-3.jpg"
+    },
+    {
+        "id" : 16,
+        "nama" : "Gedung Sate",
+        "alamat" : "Jl. Diponegoro No.22, Citarum",
+        "koordinat" : {
+            "latitude" : "-6.902508",
+            "longitude" : "107.618781"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/sate-3.jpg"
+    },
+    {
+        "id" : 17,
+        "nama" : "Masjid Raya Bandung",
+        "alamat" : "Jl. Asia Afrika, Balonggede, Regol",
+        "koordinat" : {
+            "latitude" : "-6.921752",
+            "longitude" : "107.606502"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/masjid-2.jpg"
+    },
+    {
+        "id" : 18,
+        "nama" : "Stasiun Bandung",
+        "alamat" : "Jl. Stasiun Barat, Kb. Jeruk",
+        "koordinat" : {
+            "latitude" : "-6.912598",
+            "longitude" : "107.602401"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/stasiun-2.jpg"
+    },
+    {
+        "id" : 19,
+        "nama" : "Jalan Asia Afrika",
+        "alamat" : "Jl. Asia Afrika, Braga",
+        "koordinat" : {
+            "latitude" : "-6.921236",
+            "longitude" : "107.608049"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/asia-3.jpg"
+    },
+    {
+        "id" : 20,
+        "nama" : "Jalan Braga",
+        "alamat" : "Jl. Braga, Sumur Bandung",
+        "koordinat" : {
+            "latitude" : "-6.917451",
+            "longitude" : "107.609334"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/braga-2.jpg"
+    },
+    {
+        "id" : 21,
+        "nama" : "Kartika Sari",
+        "alamat" : "Jl. Haji Akbar No.4, Pasir Kaliki",
+        "koordinat" : {
+            "latitude" : "-6.911932",
+            "longitude" : "107.599857"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/kartika-5.jpg"
+    },
+    {
+        "id" : 22,
+        "nama" : "Batagor Kingsley",
+        "alamat" : "Jl. Veteran No.25, Kebon Pisang",
+        "koordinat" : {
+            "latitude" : "-6.919113",
+            "longitude" : "107.615354"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/batagor-1.jpg"
+    },
+    {
+        "id" : 23,
+        "nama" : "Let's Go Gelato",
+        "alamat" : "Jl. Bengawan No.29, Cihapit",
+        "koordinat" : {
+            "latitude" : "-6.911449",
+            "longitude" : "107.631220"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/gelato-4.jpg"
+    },
+    {
+        "id" : 24,
+        "nama" : "Mom's Bakery",
+        "alamat" : "Jl. Progo No.18, Citarum",
+        "koordinat" : {
+            "latitude" : "-6.904710",
+            "longitude" : "107.618598"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/mom-2.jpg"
+    },
+    {
+        "id" : 25,
+        "nama" : "Blue Doors",
+        "alamat" : "Jl. Gandapura No.61, Merdeka",
+        "koordinat" : {
+            "latitude" : "-6.912575",
+            "longitude" : "107.626428"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/blue-2.jpg"
+    },
+    {
+        "id" : 26,
+        "nama" : "Martabak Andir",
+        "alamat" : "Jl. Jend. Sudirman No.413, Jamika",
+        "koordinat" : {
+            "latitude" : "-6.919169",
+            "longitude" : "107.590226"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/andir-2.jpg"
+    },
+    {
+        "id" : 27,
+        "nama" : "Yoghurt Cisangkuy",
+        "alamat" : "Jl. Cisangkuy No.66, Citarum",
+        "koordinat" : {
+            "latitude" : "-6.901789",
+            "longitude" : "107.621436"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/yoghurt-3.jpg"
+    },
+    {
+        "id" : 28,
+        "nama" : "Atmosphere Resort Cafe",
+        "alamat" : "Jl. Lengkong Besar No.97, Paledang",
+        "koordinat" : {
+            "latitude" : "-6.926671",
+            "longitude" : "107.613393"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/atmosfer-1.jpg"
+    },
+    {
+        "id" : 29,
+        "nama" : "Paskal Food Market",
+        "alamat" : "Paskal Hyper Square, Jl. Pasirkaliki No.25-27, Kb. Jeruk",
+        "koordinat" : {
+            "latitude" : "-6.914426",
+            "longitude" : "107.592721"
+        },
+        "image" : "https://fasyauliuli.github.io/talentbandung/ebandy/assets/images/paskal-5.jpg"
     }
 ]
