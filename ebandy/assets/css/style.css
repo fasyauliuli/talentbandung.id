@@ -502,7 +502,7 @@ header .greet {
     padding-bottom: 18px
 }
 
-.explore {
+.button.explore {
     text-decoration: none;
     color: white;
     background-color: #6eabd8;
