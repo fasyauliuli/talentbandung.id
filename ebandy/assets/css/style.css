@@ -837,9 +837,8 @@ header .greet {
       text-align: center
   }
 
-  .publish {
+  #publish {
       display: inline-block;
-      text-decoration: none;
       font-size: 22px;
       color: white;
       background-color: #6eabd8;
@@ -848,9 +847,10 @@ header .greet {
       border-radius: 15px;
       text-align: center;
       margin: 25px 0;
+      cursor: pointer
   }
 
-  .publish:hover {
+  #publish:hover {
       text-decoration: none;
       color: white;
       background-color: #5d94b9
