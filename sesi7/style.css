@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Roboto, sans serif;
+}
+
+.single {
+    background-image: url(images/bg.png);
+    position: relative;
+}
+
+.site-content {
+    width: 1125px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+}
+
+.hero {
+    padding: 120px 15px;
+    text-align: center;
+}
+
+.title {
+    font-family: Playfair Display;
+}
+
+.subtitle {
+    font-family: Caveat;
+    font-weight: normal;
+}
+
+.title, .subtitle {
+    display: block;
+}
+
+.hero .title {
+    font-size: 72px;
+}
+
+.hero .subtitle {
+    font-size: 64px;
+}
+
+.hero p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.hero form {
+    max-width: 550px;
+    margin: 70px auto 0;
+    position: relative;
+}
+
+.hero form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 70px 20px 25px;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0 9px 13px rgba(0,0,0,0.05);
+    outline: none;
+    transition: border-color 300ms ease-in;
+}
+
+.hero form input:focus{
+    border: 2px solid #57adfe;
+}
+
+.hero form button{
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    font-size: 36px;
+    color: #e3a6a9;
+    border: none;
+    background: none;
+}
+
+.deskripsi p {
+    font-size: 18px;
+    text-align: center;
+    width: 740px;
+    margin: auto;
+    line-height: 36px;
+}
+
+.grid-layout:after { /*clear fix*/
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.grid-item{
+    width: 33.3333%; /*bikin layout grid*/
+    float: left;
+    padding: 0 15px;
+}
+
+.grid-item:nth-child(3n+1){
+    clear: both; /*bikin elemen yang ga sejajar jadi sejajar, dibikin sejajar satu baris*/
+}
+
+.taman figure {
+    margin: 0; /*buat ilangin margin auto dari figure*/
+}
+
+.taman figure img {
+    width: 100%; /*maksa image jadi 100% width nya*/
+}
+
+.taman {
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.04);
+}
+
+.taman a {
+    color: black;
+    text-decoration: none;
+}
+
+.taman-detail {
+    padding: 10px;
+    text-align: center;
+}
+
+.taman-detail h2 {
+    font-size: 28px;
+    margin: 5px 0 15px;
+}
+
+.taman-detail .subtitle {
+    color: #888888;
+}
+
+.taman-detail .title {
+    color: #363636;
+}
+
+.taman-detail p {
+    color: #929292;
+    font-size: 14px;
+}
+
+.slider-image {
+    width: 1125px;
+    max-width: 100%;
+    position: relative;
+    margin: 128px auto;
+}
+
+.slider-image form button { /*alternatif panah, bisa dikasih margin auto, nilai top dan bottom 0*/
+    position: absolute;
+    top: 70px;
+    font-size: 72px;
+    background: none;
+    border: none;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0
+}
+
+.grid-carousel {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+}
+
+.image-carousel{
+    width: 934px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.image-carousel figure {
+    margin: 0;
+}
+
+.image-carousel figure img {
+    width: 100%;
+}
+
+#map:before, #map:after {
+    content: " ";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+}
+
+#map::before {
+    top: 0;
+    background-image: linear-gradient(#f8f9fa, rgba(255,255,255,0), #f8f9fa);
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+#map::after {
+    bottom: 0;
+    background-image: linear-gradient(rgba(255,255,255,0), #f8f9fa)
+}
+
+.nav {
+    width: 625px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white
+}
+
+.nav a span {
+    font-size: 30px;
+    padding-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid-nav {
+    width: 50%;
+    float: left
+}
+
+.nav-index, .nav-map {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-index {
+    background-color: #22b8cf;
+    border: 2px solid #22b8cf;
+}
+
+.nav-index:hover {
+    background-color: #f8f9fa;
+    border: 2px solid #22b8cf;
+}
+
+.nav-index a:hover {
+    color: #22b8cf;
+}
+
+.nav-map {
+    background-color: #329af0;
+    border: 2px solid #329af0;
+}
+
+.nav-map:hover {
+    background-color: #f8f9fa;
+    border: 2px solid #329af0;
+}
+
+.nav-map a:hover {
+    color: #329af0;
+}
+
+.footer {
+    color: #525252;
+    text-align: center;
+    padding: 90px 15px 40px;
+}
+
+.footer a {
+    color: #525252;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 990px){
+    .grid-item {
+        width: 50%;
+    }
+
+    .grid-item:nth-child(3n+1) {
+        clear: none;
+    }
+
+    .grid-item:nth-child(2n+1) {
+        clear: both;
+    }
+
+    .deskripsi p {
+        width: 100%;
+    }
+
+    .grid-carousel {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .grid-carousel:nth-child(3n) {
+        display: none;
+    }
+
+    .slider-image form button {
+        top: 0;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 660px){ 
+    .grid-nav {
+        width: 100%;
+        float: left;
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .grid-item {
+        width: 100%;
+    }
+    
+    .deskripsi p {
+        width: 100%;
+    }
+
+    .grid-carousel {
+        width: 100%;
+    }
+
+    .slider-image form button {
+        display: none
+    }
+
+    .grid-nav {
+        width: 100%;
+        float: left;
+        margin: 8px;
+    }
+
+    .nav form button {
+        margin: 5px;
+    }
+}
+
+/*.taman {
+    display: inline-block;
+    margin: 8px;
+}
+
+.taman-detail {
+    text-align: center;
+    background-color: white;
+    padding: 5px 0;
+    box-shadow: 9px 9px 18px rgba(0,0,0,0.02);
+}
