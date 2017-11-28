@@ -1,18 +1,15 @@
 $.get('https://fasyauliuli.github.io/talentbandung.id/ebandy/assets/script/tempat.json', function(data) {
-    console.log(data);
-    var listMuseum = $('.museum-list')
+    var listKeluarga = $('.museum-list')
     
-        for (i=0; i < 3; i++){
-            console.log(data);
-            var museumItem = '<div class="col-md-4"><div class="museum"><figure><a href="index.html"><img src=' + data[i].image + '></a></figure><div class = "travel-detail museum-detail"><h3><a href = "index.html">' + data[i].nama + '</a></h3><p>' + data[i].alamat + '</p></div></div></div>';
-            listMuseum.append(museumItem);
+        for (i=5; i < 8; i++){
+            var keluargaItem = '<div class="col-md-4"><div class="museum"><figure><a href="index.html"><img src=' + data[i].image + '></a></figure><div class = "travel-detail museum-detail"><h3><a href = "index.html">' + data[i].nama + '</a></h3><p>' + data[i].alamat + '</p></div></div></div>';
+            listKeluarga.append(keluargaItem);
         }
     
-    var museumList = $('.travel-list-2')
+    var keluargaList = $('.travel-list-2')
 
-        for (i=3; i < 5; i++){
-            console.log(data);
-            var itemMuseum = '<div class="col-md-6"><div class="museum"><figure><a href="index.html"><img src=' + data[i].image + '></a></figure><div class = "travel-detail museum-detail"><h3><a href = "index.html">' + data[i].nama + '</a></h3><p>' + data[i].alamat + '</p></div></div></div>';
-            museumList.append(itemMuseum);
+        for (i=8; i < 10; i++){
+            var itemKeluarga = '<div class="col-md-6"><div class="museum"><figure><a href="index.html"><img src=' + data[i].image + '></a></figure><div class = "travel-detail museum-detail"><h3><a href = "index.html">' + data[i].nama + '</a></h3><p>' + data[i].alamat + '</p></div></div></div>';
+            keluargaList.append(itemKeluarga);
         }
 } );
