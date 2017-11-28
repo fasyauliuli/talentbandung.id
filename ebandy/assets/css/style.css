@@ -271,7 +271,7 @@ h3 a, h3 a:hover {
     border-radius: 38px;
     border: 3px solid white;
     display: inline-block;
-    width: 280px
+    width: 315px
 }
 
 .button.start:hover {
@@ -824,43 +824,74 @@ header .greet {
     border-color: transparent transparent transparent #20303b;
   }
 
-  #editor {
-      height: 380px
-  }
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-  .post-title {
-      text-align: center;
-      margin: 40px 0;
-      color: #6eabd8;
-  }
+.timeline ul li::after {
+transition: background .5s ease-in-out;
+}
 
-  .ql-toolbar.ql-snow {
-      text-align: center
-  }
+.timeline ul li.in-view::after {
+background: white;
+}
 
-  .ql-editor {
-      font-size: 18px;
-  }
+.timeline ul li div {
+visibility: hidden;
+opacity: 0;
+transition: all .5s ease-in-out;
+}
 
-  .button.save {
-      text-align: center
-  }
+.timeline ul li:nth-child(odd) div {
+transform: translate3d(200px, 0, 0);
+}
 
-  #publish {
-      display: inline-block;
-      font-size: 22px;
-      color: white;
-      background-color: #6eabd8;
-      padding: 8px;
-      width: 125px;
-      border-radius: 15px;
-      text-align: center;
-      margin: 25px 0;
-      cursor: pointer
-  }
+.timeline ul li:nth-child(even) div {
+transform: translate3d(-200px, 0, 0);
+}
 
-  #publish:hover {
-      text-decoration: none;
-      color: white;
-      background-color: #5d94b9
-  }
+.timeline ul li.in-view div {
+transform: none;
+visibility: visible;
+opacity: 1;
+}
+
+#editor {
+    height: 380px
+}
+
+.post-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #6eabd8;
+}
+
+.ql-toolbar.ql-snow {
+    text-align: center
+}
+
+.ql-editor {
+    font-size: 18px;
+}
+
+.button.save {
+    text-align: center
+}
+
+#publish {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    background-color: #6eabd8;
+    padding: 8px;
+    width: 125px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px 0;
+    cursor: pointer
+}
+
+#publish:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #5d94b9
+}
