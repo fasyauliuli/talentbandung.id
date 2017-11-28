@@ -16,13 +16,9 @@ var quill = new Quill('#editor', {
     theme: 'snow'
   });
 
-$(document).ready(function() {
-    $('#publish').click(function() {
-        new jBox('Notice', {
-            content: 'Your Story Has Been Published',
-            color: 'blue'
-        });
-    });
+var notif = $('#publish');
+notif.click(function(){
+    toastr.success('Your Post Has Published');
 });
 
 
