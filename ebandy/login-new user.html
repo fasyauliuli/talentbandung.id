@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/jBox.css">
-    <link href="https://cdn.quilljs.com/1.3.4/quill.snow.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/befolk.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Post - Ebandy</title>
+    <title>Login - Ebandy</title>
 </head>
 <body>
     <header>
-        <div class="hero">
-            <p><a href="index.html">Ebandy</a></p>
-            <p class="greet">Hello, Amir</p>
-            <figure>
-                <a href="profile-1.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
-            </figure>
-            <a href="index.html" class="button login">LOG OUT</a>
-        </div>
+        <p><a href="index.html">Ebandy</a></p>
     </header>
     <main>
-        <h1 class="post-title">Share Your Experience!</h1>
-        <div id="editor"></div>
-        <div class="button save">
-            <div id="publish">Publish</div>
+        <div class="container">
+            <div class="row login">
+                <div class="col-md-6">
+                    <figure>
+                        <img src="assets/images/login.png" alt="icon-login">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <div class="form">
+                        <h1>Continue your journey with Ebandy!</h1>
+                        <form action="">
+                            <input type="email" placeholder="Your Email Address"> <br />
+                            <input type="password" placeholder="Password"> <br />
+                        </form>
+                        <a href="profile.html" class="login page">LOGIN</a>
+                        <hr />
+                        <p>You don't have an account? Create in <a href="signup.html">here</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -58,10 +66,5 @@
         </figure>
         <p>&copy; 2017. Developed By <span class="nama"><a href="https://linkedin.com/in/fasyauliuli">AFN</a></span> | <span class="nama">Talent Bandung</span> Pengembangan Web Batch 2</p>
     </footer>
-
-    <script src="assets/script/jquery.min.js"></script>
-    <script src="https://cdn.quilljs.com/1.3.4/quill.js"></script>
-    <script src="assets/script/jBox.min.js"></script>
-    <script src="assets/script/post.js"></script>
 </body>
 </html>
