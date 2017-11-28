@@ -8,8 +8,8 @@ $('.js-anchor-link').click(function(e){
   });
 
 $('.logo').scrollClass({
-  delay: 1000
+  delay: 50
 });
 $('.deskripsi').scrollClass({
-  delay: 1000
+  delay: 50
 });
