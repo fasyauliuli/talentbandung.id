@@ -111,7 +111,7 @@ header h1 {
 .intro {
     margin-top: 53px;
     width: 1236px;
-    margin: 53px auto;
+    margin: 60px auto;
 }
 
 .col-md-4 figure {
@@ -147,6 +147,7 @@ h2 .explore {
 .langkah-list {
     width: 1266px;
     margin: auto;
+    margin-bottom: 32px
 }
 
 .content h2 {
@@ -182,7 +183,7 @@ p .detail {
 }
 
 .travel-package h2 {
-    padding: 60px
+    padding: 45px
 }
 
 h2 .title {
@@ -513,7 +514,7 @@ header .greet {
     margin: 30px 0 60px 0
 }
 
-.explore:hover {
+.button.explore:hover {
     text-decoration: none;
     color: white;
     background-color: #5d94b9
@@ -700,6 +701,14 @@ header .greet {
     right: 15px;
     border: none;
     background-color: #6eabd8
+}
+
+.travel-info h2 a {
+    color: white;
+}
+
+.travel-info h2 a:hover {
+    text-decoration: none;
 }
 
 .timeline-list {
