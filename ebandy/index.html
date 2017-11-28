@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Home - Ebandy</title>
 </head>
@@ -25,7 +26,7 @@
                     <div class="col-md-6 head">
                         <h1>Travel Smarter. Get Points</h1>
                         <p>The best way to travel in our lovely Bandung. Earn rewards while travelling.</p>
-                        <a href="#list" class="button get-start">Get Started</a>
+                        <a href="#list" class="button get-start js-anchor-link">Start Travelling</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +36,7 @@
         <div class="row intro">
             <div class="col-md-4">
                 <figure>
-                    <img src="assets/images/logo.png" alt="logo-ebandy" class="logo">
+                    <img src="assets/images/logo.png" alt="logo-ebandy" class="logo"  data-scroll-class="zoomIn">
                 </figure>
             </div>
             <div class="col-md-8 about">
@@ -48,53 +49,55 @@
             </div>
         </div>
         <div class="content">
-            <h2><span class="how-to">How to</span> Explore Bandung with <span class="ebandy">Ebandy</span> ?</h2>
-            <figure>
-                <img src="assets/images/count.png" alt="langkah-langkah">
-            </figure>
-            <div class="row langkah-list">
-                <div class="langkah col-md-3">
-                    <figure>
-                        <img src="assets/images/map.png" alt="icon-peta">
-                    </figure>
-                    <div class="langkah-detail">
-                        <h3>Choose Travel Package</h3>
-                        <p>
-                            Choose any <span class="detail">Travel Package</span> listed from Ebandy, or just organize your list of places in <span class="detail">Bandung</span> as your own package that suit you the most!
-                        </p>
+            <div id="how-to">
+                <h2><span class="how-to">How to</span> Explore Bandung with <span class="ebandy">Ebandy</span> ?</h2>
+                <figure>
+                    <img src="assets/images/count.png" alt="langkah-langkah">
+                </figure>
+                <div class="row langkah-list">
+                    <div class="langkah col-md-3">
+                        <figure>
+                            <img src="assets/images/map.png" alt="icon-peta">
+                        </figure>
+                        <div class="langkah-detail">
+                            <h3>Choose Travel Package</h3>
+                            <p>
+                                Choose any <span class="detail">Travel Package</span> listed from Ebandy, or just organize your list of places in <span class="detail">Bandung</span> as your own package that suit you the most!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="langkah col-md-3">
-                    <figure>
-                        <img src="assets/images/gunung.png" alt="icon-gunung">
-                    </figure>
-                    <div class="langkah-detail">
-                        <h3>Explore Bandung!</h3>
-                        <p>
-                            Explore Bandung based on your planned destination on your travel package. <span class="detail">Freely choose</span> which one you want to visit first!
-                        </p>
+                    <div class="langkah col-md-3">
+                        <figure>
+                            <img src="assets/images/gunung.png" alt="icon-gunung">
+                        </figure>
+                        <div class="langkah-detail">
+                            <h3>Explore Bandung!</h3>
+                            <p>
+                                Explore Bandung based on your planned destination on your travel package. <span class="detail">Freely choose</span> which one you want to visit first!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="langkah col-md-3">
-                    <figure>
-                        <img src="assets/images/jurnal.png" alt="icon-jurnal">
-                    </figure>
-                    <div class="langkah-detail">
-                        <h3>Write your Diary!</h3>
-                        <p>
-                            Time to write your <span class="detail">Bandung Travel Diary!</span> Add your stories,Pictures and ratings. You can set it private or publicly!
-                        </p>
+                    <div class="langkah col-md-3">
+                        <figure>
+                            <img src="assets/images/jurnal.png" alt="icon-jurnal">
+                        </figure>
+                        <div class="langkah-detail">
+                            <h3>Write your Diary!</h3>
+                            <p>
+                                Time to write your <span class="detail">Bandung Travel Diary!</span> Add your stories,Pictures and ratings. You can set it private or publicly!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="langkah col-md-3">
-                    <figure>
-                        <img src="assets/images/medali.png" alt="icon-medali">
-                    </figure>
-                    <div class="langkah-detail">
-                        <h3>Get your Rewards!</h3>
-                        <p>
-                            Finally, get your points! Your <span class="detail">Travel Diary</span> wil give you points, and Get <span class="detail">Explorer Badge</span> by reaching some goals! 
-                        </p>
+                    <div class="langkah col-md-3">
+                        <figure>
+                            <img src="assets/images/medali.png" alt="icon-medali">
+                        </figure>
+                        <div class="langkah-detail">
+                            <h3>Get your Rewards!</h3>
+                            <p>
+                                Finally, get your points! Your <span class="detail">Travel Diary</span> wil give you points, and Get <span class="detail">Explorer Badge</span> by reaching some goals! 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,7 +148,7 @@
                     <h2>Ready to Plan your Travel with <span class="ebandy">Ebandy</span> ?</h2>
                 </div>
                 <div class="col-md-4">
-                    <a href="#list" class="button start">Get Started</a>
+                    <a href="#list" class="button start js-anchor-link">Start Travelling</a>
                 </div>
             </div>
         </div>
@@ -160,7 +163,7 @@
             <div class="menu col-md-4">
                 <h4>MORE</h4>
                 <ul>
-                    <li><a href="#">How To</a></li>
+                    <li><a href="#how-to" class="js-anchor-link">How To</a></li>
                     <li><a href="package.html">Travel Packages</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
@@ -180,7 +183,8 @@
         <p>&copy; 2017. Developed By <span class="nama"><a href="https://linkedin.com/in/fasyauliuli">AFN</a></span> | <span class="nama">Talent Bandung</span> Pengembangan Web Batch 2</p>
     </footer>
 
-    <script src="assets/script/scrollreveal.min.js"></script>
+    <script src="assets/script/jquery.min.js"></script>
+    <script src="assets/script/scrollClass.js"></script>
     <script src="assets/script/app.js"></script>
 </body>
 </html>
