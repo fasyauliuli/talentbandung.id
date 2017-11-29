@@ -6,10 +6,3 @@ $('.js-anchor-link').click(function(e){
       $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
     }
   });
-
-$('.logo').scrollClass({
-  delay: 50
-});
-$('.deskripsi').scrollClass({
-  delay: 50
-});
