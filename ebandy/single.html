@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.ico">
+    <title>Museum Sri Baduga - Ebandy</title>
+</head>
+<body>
+    <header>
+        <p><a href="index.html">Ebandy</a></p>
+        <p class="greet">Hello, Amir</p>
+        <figure>
+            <a href="profile-after post.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
+        </figure>
+        <a href="index.html" class="button login">LOG OUT</a>
+    </header>
+    <main>
+        <div class="operasional">
+            <h1><span class="place">Museum</span> Sri Baduga</h1>
+            <h2><a href="museum-after login.html">Museum Tour</a> | Ticket: Rp 2.500</h2>
+            <h2>Work Hour: 08.00 - 16.00 Tuesday - Friday, 08.00 - 12.00 Saturday & Sunday</h2>
+        </div>
+        <div class="site-content">
+            <p class="selayang">Apabila anda seorang yang menyenangi bidang sejarah, budaya dan arkeologi, maka Museum Sri Baduga cocok untuk dikunjungi. Museum yang berada di Jl. B.K.R. No. 185, Bandung ini menawarkan beragam koleksi yang menarik. Bukan hanya untuk dilihat namun juga dipelajari. Pemberian nama museum ini berdasarkan gelar salah seorang raja Pajajaran yang tertulis pada Prasasti Batutulis. Peninggaalan budaya di Museum Sri Baduga sangat banyak. Sejak berdirinya hingga tahun 2005, telah terdapat 5893 koleksi benda.</p>
+            <h3><span class="place">Photos of</span> Museum Sri Baduga</h3>
+            <div class="row foto">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/sri-baduga-1.jpg" alt="sri baduga">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/sri-baduga-1.jpg" alt="sri baduga">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/sri-baduga-1.jpg" alt="sri baduga">
+                    </figure>
+                </div>
+            </div>
+            <h3><span class="place">Location of</span> Museum Sri Baduga</h3>
+            <p class="address">Jl. BKR No. 185, Pelindung Hewan, Astanaanyar, Bandung. 40243</p>
+            <div id="map"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="row footer">
+            <div class="col-md-4">
+                <figure>
+                    <a href="index.html"><img src="assets/images/text.png" alt="ebandy-text"></a>
+                </figure>
+                <figure>
+                    <img src="assets/images/talentbandung.png" alt="talentbandung logo" class="talentbandung">
+                </figure>
+            </div>
+            <div class="menu col-md-4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="#">How To</a></li>
+                    <li><a href="package.html">Travel Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="menu col-md-4">
+                <h4>SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <figure>
+            <img src="assets/images/kota.png" alt="kota" class="kota">
+        </figure>
+        <p>&copy; 2017. Developed By <span class="nama"><a href="https://linkedin.com/in/fasyauliuli">AFN</a></span> | <span class="nama">Talent Bandung</span> Pengembangan Web Batch 2</p>
+    </footer>
+
+    <script>
+        function initMap() {
+          var uluru = {lat: -6.937759, lng: 107.603462};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx5t-39vysRohxwtoqa6y9RW7gty-blxk&callback=initMap">
+    </script>
+</body>
+</html>

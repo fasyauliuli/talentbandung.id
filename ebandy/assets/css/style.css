@@ -899,3 +899,71 @@ opacity: 1;
     color: white;
     background-color: #5d94b9
 }
+
+.operasional {
+    background-image: url(../images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 65px
+}
+
+.operasional h1 {
+    font-size: 58.11px;
+    margin-top: 0;
+    margin-bottom: 28px
+}
+
+.operasional h2 {
+    font-size: 31.25px;
+    margin-bottom: 0
+}
+
+.operasional h2 a {
+    color: white
+}
+
+.operasional h2 a:hover {
+    color: white;
+    text-decoration: none
+}
+
+.place {
+    font-weight: 300
+}
+
+.site-content {
+    width: 1234px;
+    text-align: center;
+    margin: auto
+}
+
+.site-content p {
+    font-size: 25px;
+}
+
+.site-content h3 {
+    font-size: 35px
+}
+
+.selayang {
+    margin: 50px 6px;
+    font-weight: 300
+}
+
+.row.foto {
+    margin: 55px 0
+}
+
+.address {
+    margin-bottom: 35px;
+    font-weight: 300
+}
+
+#map {
+    width: 708px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 67px;
+}
