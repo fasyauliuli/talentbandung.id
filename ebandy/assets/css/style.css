@@ -967,3 +967,46 @@ opacity: 1;
     margin: auto;
     margin-bottom: 67px;
 }
+
+.join-info {
+    text-align: left;
+    margin-top: 25px
+}
+
+.join-info .col-md-9 {
+    padding: 0;
+    padding-left: 35px
+}
+
+.bergabung {
+    font-size: 30.5px;
+    font-weight: 300
+}
+
+.penghargaan {
+    width: 1229px;
+    margin: auto;
+    margin-bottom: 87px
+}
+
+.penghargaan h1 {
+    text-align: center;
+}
+
+.jenis-penghargaan {
+    margin-top: 87px;
+}
+
+.jenis-penghargaan .col-md-8 {
+    margin-top: 50px
+}
+
+.jenis-penghargaan p {
+    font-size: 25px
+}
+
+.jenis-penghargaan h2, .jenis-penghargaan p {
+    text-align: left;
+    padding: 0;
+    margin-left: 60px
+}
