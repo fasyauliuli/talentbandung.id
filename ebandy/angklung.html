@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.ico">
+    <title>Saung Angklung Udjo - Ebandy</title>
+</head>
+<body>
+    <header>
+        <p><a href="index.html">Ebandy</a></p>
+        <p class="greet">Hello, Amir</p>
+        <figure>
+            <a href="profile-after post.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
+        </figure>
+        <a href="index.html" class="button login">LOG OUT</a>
+    </header>
+    <main>
+        <div class="operasional angklung">
+            <h1><span class="place">Saung</span> Angklung Udjo</h1>
+            <h2><a href="family-after login.html">Family and Kids Tour</a> | Ticket: Rp 60.000</h2>
+            <h2>Work Hour: 08.00 - 22.00 Everyday</h2>
+        </div>
+        <div class="site-content">
+            <p class="selayang">Bagi Anda yang ingin berkunjung ke tempat wisatayang berbeda, unik, serta menghibur dan mendidik maka Anda dapat mencoba datang ke Saung Angklung Udjo. Saung Angklung Udjo adalah pusat pelestarian dan pertunjukan kebudayaan tradisional yang ada di Bandung. Bagi orang tua, Anda dapat mengenang masa lalu bermain angklung di tempat ini, sedangkan bagi anak Anda, mereka dapat belajar mengenal kebudayaan Indonesia yang sudah jarang ditemui di kota-kota besar ini. Selain kunjungan wisata seni dan budaya, Saung Angklung Udjo juga sering kali mendapat kunjungan dari rombongan sekolah yang ingin mempelajari kebudayaan tradisional langsung di tempatnya. Saung Angklung Udjo juga menarik perhatian dunia internasional sehingga banyak wisatawan asing yang datang berkunjung untuk menikmati suara angklung yang indah dan menenangkan hati.</p>
+            <h3><span class="place">Photos of</span> Saung Angklung Udjo</h3>
+            <div class="row foto">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/udjo-3.jpg" alt="saung angklung udjo">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/udjo-4.jpg" alt="saung angklung udjo">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/udjo-5.jpg" alt="saung angklung udjo">
+                    </figure>
+                </div>
+            </div>
+            <h3><span class="place">Location of</span> Saung Angklung Udjo</h3>
+            <p class="address">Jl Padasuka No.118, Pasirlayung, Cibeunying Kidul, Bandung, 40192</p>
+            <div id="map"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="row footer">
+            <div class="col-md-4">
+                <figure>
+                    <a href="index.html"><img src="assets/images/text.png" alt="ebandy-text"></a>
+                </figure>
+                <figure>
+                    <img src="assets/images/talentbandung.png" alt="talentbandung logo" class="talentbandung">
+                </figure>
+            </div>
+            <div class="menu col-md-4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="package.html">Travel Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="menu col-md-4">
+                <h4>SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <figure>
+            <img src="assets/images/kota.png" alt="kota" class="kota">
+        </figure>
+        <p>&copy; 2017. <span class="nama"><a href="http://www.talentbandung.id/">talentbandung.id</a></span></p>
+    </footer>
+
+    <script>
+        function initMap() {
+          var uluru = {lat: -6.897947, lng: 107.654965};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx5t-39vysRohxwtoqa6y9RW7gty-blxk&callback=initMap">
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/befolk.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.ico">
+    <title>Blue Doors - Ebandy</title>
+</head>
+<body>
+    <header>
+        <p><a href="index.html">Ebandy</a></p>
+        <p class="greet">Hello, Amir</p>
+        <figure>
+            <a href="profile-after post.html"><img src="assets/images/user.png" alt="user-icon" class="user"></a>
+        </figure>
+        <a href="index.html" class="button login">LOG OUT</a>
+    </header>
+    <main>
+        <div class="operasional blue">
+            <h1><span class="place">Blue Doors</span> Cafe</h1>
+            <h2><a href="food-after login.html">Cullinary Tour</a></h2>
+            <h2>Work Hour: 09.00 - 22.00 Everyday</h2>
+        </div>
+        <div class="site-content">
+            <p class="selayang">Pintu berwarna biru cerah akan menyambut kita ketika berkunjung kesini seolah menjadi icon sehingga akan mudah di inggat oleh siapa saja yang berkunjung kesini, Blue Doors! Suasana yang homey, desain interior yang vintage dan alunan musik jazz akan bikin kamu betah berlama-lama. Dan yang pasti kopi menambah lengkap dan nyamannya coffee shop ini. Area duduk disinipun terbagi dua, ada outdoor dan indoor. Coffee shop ini juga dilengkapi WiFi dan power plug. Untuk range harga disini, kopi di bandrol dengan harga 27.000-35.000, Anda bukan penikmat kopi? Blue Doors juga menyediakan non-coffee drink dengan harga 20.000-30.000. Selain itu disini juga menjual camilan, kue dan makanan berat.</p>
+            <h3><span class="place">Photos of</span> Blue Doors Cafe</h3>
+            <div class="row foto">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/blue-2.jpg" alt="blue doors">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/blue-4.jpg" alt="blue doors">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/images/blue-5.jpg" alt="blue doors">
+                    </figure>
+                </div>
+            </div>
+            <h3><span class="place">Location of</span> Blue Doors Cafe</h3>
+            <p class="address">Jl. Gandapura No.61, Merdeka, Sumur Bandung, Bandung, 40113</p>
+            <div id="map"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="row footer">
+            <div class="col-md-4">
+                <figure>
+                    <a href="index.html"><img src="assets/images/text.png" alt="ebandy-text"></a>
+                </figure>
+                <figure>
+                    <img src="assets/images/talentbandung.png" alt="talentbandung logo" class="talentbandung">
+                </figure>
+            </div>
+            <div class="menu col-md-4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="package.html">Travel Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="menu col-md-4">
+                <h4>SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <figure>
+            <img src="assets/images/kota.png" alt="kota" class="kota">
+        </figure>
+        <p>&copy; 2017. <span class="nama"><a href="http://www.talentbandung.id/">talentbandung.id</a></span></p>
+    </footer>
+
+    <script>
+        function initMap() {
+          var uluru = {lat: -6.912575, lng: 107.626428};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx5t-39vysRohxwtoqa6y9RW7gty-blxk&callback=initMap">
+    </script>
+</body>
+</html>

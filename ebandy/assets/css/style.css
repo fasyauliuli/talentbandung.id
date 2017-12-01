@@ -901,12 +901,35 @@ opacity: 1;
 }
 
 .operasional {
-    background-image: url(../images/head.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     text-align: center;
     padding: 65px
+}
+
+.baduga {
+    background-image: url(../images/sri-baduga.jpg);
+}
+
+.pos {
+    background-image: url(../images/pos.jpg);
+}
+
+.angklung {
+    background-image: url(../images/udjo.jpg);
+}
+
+.blue {
+    background-image: url(../images/blue.jpg);
+}
+
+.asia {
+    background-image: url(../images/asia.jpg);
+}
+
+.pasbar {
+    background-image: url(../images/pasar.jpg);
 }
 
 .operasional h1 {
