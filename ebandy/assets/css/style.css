@@ -832,37 +832,6 @@ header .greet {
     border-color: transparent transparent transparent #20303b;
   }
 
-/* EFFECTS
-––––––––––––––––––––––––––––––––––––––––––––––––––
-
-.timeline ul li::after {
-transition: background .5s ease-in-out;
-}
-
-.timeline ul li.in-view::after {
-background: white;
-}
-
-.timeline ul li div {
-visibility: hidden;
-opacity: 0;
-transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-transform: translate3d(-200px, 0, 0);
-}
-
-.timeline ul li.in-view div {
-transform: none;
-visibility: visible;
-opacity: 1;
-} */
-
 #editor {
     height: 380px
 }
